@@ -5,3 +5,4 @@
 
 ## Have used Framer-motion
 #### There is a Framer-motion component motion.div which can be only used in "client" so we have used a client componet just to fetch motion.div in AnimeCard component# anime-vault
+# anime
