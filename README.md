@@ -1,9 +1,7 @@
-# Build Modern Next 14 Server Side App with Server Actions, Infinite Scroll & Framer Motion Animations
+# Build Modern Next 14 Server Side App 
+## Basically this project will help your understanding of Server Actions, Infinite Scroll & Framer Motion Animations
+## Used react-intersection-observer 
+#### The Intersection Observer is a JavaScript API that enables actions based on the visibility of elements within the viewport. It's highly efficient for detecting when an element becomes visible or hidden, making it ideal for scroll-based animations.
 
-![Anime Website](https://i.ibb.co/MG1nbqt/YT-Thumbnails-2.png)
-
-### [🌟 Become a top 1% Next.js 14 developer in only one course](https://jsmastery.pro/next14)
-### [🚀 Land your dream programming job in 6 months](https://jsmastery.pro/masterclass)
-### [📙 Free Three.js Cheatsheet](https://resource.jsmastery.pro/threejs-cheatsheet)
-### [🌐 Best Hosting for Your Websites](https://hostinger.com/javascript10)
-
+## Have used Framer-motion
+#### There is a Framer-motion component motion.div which can be only used in "client" so we have used a client componet just to fetch motion.div in AnimeCard component
