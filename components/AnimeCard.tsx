@@ -1,6 +1,7 @@
 import Image from "next/image";
 import {motion} from "framer-motion";
 import MotionDiv from "./MotionDiv";
+import Link from "next/link";
 
 export interface AnimeProp {
   id: string;
@@ -45,6 +46,8 @@ function AnimeCard({ anime,index }: Prop) {
           className="rounded-xl"
         />
       </div>
+      <Link href={`/anime/${anime.id}`}>
+
       <div className="py-4 flex flex-col gap-3">
         <div className="flex justify-between items-center gap-1">
           <h2 className="font-bold text-white text-xl line-clamp-1 w-full">
@@ -81,6 +84,7 @@ function AnimeCard({ anime,index }: Prop) {
           </div>
         </div>
       </div>
+      </Link>
     </MotionDiv>
   );
 }
