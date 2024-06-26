@@ -17,7 +17,7 @@ export interface AnimeeProp {
   episodes: number;
   episodes_aired: number;
   score: string;
-  studios:[string];
+  studios:any;
   description: string;
   released_on: string;
   rating: string;
